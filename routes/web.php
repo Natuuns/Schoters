@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('nathan', 'NathanController@index');
-Route::get('nathan/{id}', 'NathanController@show');
+Route::post('nathan', 'NathanController@show');

@@ -1,37 +1,51 @@
+@font-face {
+    font-family: "Custom Font";
+    src: url(texgyreheros-regular.otf);
+}
+p.customfont { 
+    font-family: "Custom Font", Helvetica;
+}
+
+
 .dropdown-toggle::after {
     display:none;
 }
 
 @media only screen and (min-width: 1140px) {
   .navbar-brand{
+    color: #ffffff !important;
     position: absolute;
     left: 75px;
   }
   .form-inline{
+    color: #ffffff !important;
     position: absolute;
     left: 200px;
   }
   .form-inline > .form-control{
-    max-width: 800px !important;
-    width: 100% !important;
+    width: 800px;
   }
   .custom__navbar_ul{
     width: 100%;
   }
   .dropdown__custom2{
+    color: #ffffff !important;
     display: none;
   }
   .custom_ul {
+    color: #ffffff !important;
     list-style-type: none;
     margin-left: auto;
     padding: 0;
     overflow: hidden;
   }
   .custom_li {
+    color: #ffffff !important;
     float: left;
   }
 
   .custom_li a {
+    color: #ffffff !important;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -43,13 +57,75 @@
     display: none;
   }
   .custom_ul{
+    color: #ffffff !important;
     list-style-type: none;
     padding-left: 0px;
   }
    .custom_li a{
+    color: #ffffff !important;
     text-align: left;
+  }
+  .search_width{
+    max-width: 800px !important;
+    width: 100% !important;
   }
 }
 
+button:focus{outline: 0}
+
+.MyBtn {
+  margin: 0px 10px 10px 0px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 30px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #545454;
+  background-color: #fbfbfb;
+  border-color: #545454;
+}
+.btn_added {
+    color: white;
+    background-color: #38C4CA;
+    border-color: #2E9DA1;
+}
+
+.btn_submit {
+  font-family: "Custom Font";
+  letter-spacing: 1px;
+  margin: 0px 10px 10px 0px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 5px 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #ffffff;
+  background-color: #5f98e1;
+}
 
 
+.nathan_view{
+  padding: 20px;
+  background: #f6f6f6;
+  margin-bottom: 30px;
+}
